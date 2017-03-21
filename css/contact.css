@@ -1,0 +1,30 @@
+/*iframe {*/
+/*    min-height:700px;*/
+/*    width:100%;*/
+/*}*/
+
+/*==== GOOGLE MAP ====*/
+
+#google-map-container, #contact-form {
+    width:50%;
+    float:left;
+}
+
+header {
+    margin-bottom:48px;
+}
+
+#contact-form iframe {
+    min-height:750px;
+}
+
+#google-map-container {
+    height:450px;
+    border:0;
+}
+
+#google-map-container iframe {
+    width:450px;
+    height:400px;
+}
+

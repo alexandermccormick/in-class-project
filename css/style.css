@@ -1,0 +1,153 @@
+/*==== FONTS ====*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Satisfy');
+    /*font-family: 'Satisfy', cursive;
+      font-family: 'Lato', sans-serif;*/
+
+/*==== END OF FONTS====*/
+
+/*====UNIVERSAL====*/
+
+.inline {
+    display:inline;
+}
+
+.pull-left {
+    float:left;
+}
+
+.pull-right {
+    float:right;
+}
+
+.active {
+    background-color:yellow;
+    color:#000;
+}
+
+.active a {
+    color:#000;
+}
+
+ p {
+     font-family: 'Lato', sans-serif;
+ }
+/*==== MAIN ====*/
+
+header {
+    height:70px;
+    background-color:#000;
+    padding:0 16px;
+}
+
+header nav ul li {
+    margin-right:15px;
+}
+
+h1, h2 {
+    color:#fff;
+    font-family: 'Satisfy', cursive;
+}
+
+nav ul li a {
+    color:#fff;
+    text-decoration:none;
+    padding:1px 2px;
+    margin:4px 2px;
+}
+
+#hero {
+    background-image:url("../img/city.jpg");
+    height:350px;
+    background-size:cover;
+    background-position:center;
+}
+
+.titleStyle {
+    margin-top:11%;
+    margin-left:40%;
+    position:absolute;
+    text-align:center;
+}
+
+.white-text {
+    color:#fff;
+}
+
+.centered {
+    text-align:center;
+}
+
+aside {
+    width:30%;
+    background-color:#000;
+    height:350px;
+    border:2px solid purple;
+    
+}
+
+#blog-links {
+    margin:0;
+    padding:0;
+}
+
+.blog-link:hover a, .blog-link:hover {
+    background-color:#eeee77;
+    color:#000;
+}
+
+aside li {
+    margin-bottom:10px;
+    padding:5px 0px;
+}
+
+aside a {
+    color:#fff;
+    text-decoration:none;
+    list-style-type:none;
+    float:left;
+}
+
+/*==== MAIN ====*/
+
+main {
+    float:right;
+    width:69%;
+    height:350px;
+    overflow:auto;
+}
+
+#main-heading {
+    font-weight:700;
+    color:#000;
+}
+
+main p {
+    text-align:right;
+}
+
+footer {
+    background-color:#33f;
+    height:55px;
+    clear:both;
+    padding:8px 0;
+}
+
+.social-media {
+    margin-left:8px;
+}
+
+footer #social-media a:hover {
+    color:#fff;
+    text-decoration:none;
+}
+
+#copywrite {
+    font-size:10px;
+    text-align:right;
+    color:#fff;
+}
+
+#copywrite a {
+    color:#fff;
+}

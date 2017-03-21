@@ -1,0 +1,41 @@
+h1 {
+    color: #000;
+}
+
+button {
+    background-color: pink;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    margin: auto;
+}
+
+main {
+    width: 100%;
+}
+
+main button {
+    color: blue;
+    background-color: #fff;
+    border: 2px solid blue;
+    padding: 10px 20px;
+}
+
+main div:nth-child(2) button {
+    font-size:34px;
+}
+
+main div:nth-child(3) button {
+    font-size:44px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: justify;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
